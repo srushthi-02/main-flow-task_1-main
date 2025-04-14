@@ -1,0 +1,90 @@
+*{
+    border: none;
+    margin: 0%;
+}
+nav {
+    background-color: black;
+    width: 100% !important;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+   
+}
+.back_img {
+    background-image: 
+        linear-gradient(to bottom, transparent 50%, black 100%) ,
+        linear-gradient(to top, transparent 50%, black 100%) ,
+        url("background_image.png");
+    background-size: cover;
+    width: 100%;
+    height: 925px;
+    display: flex;
+    justify-content: center;
+    
+}
+.g{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+@font-face {
+    font-family: centuri;
+    src: url(Centauri.ttf);
+}
+
+.title{
+  
+   font-family: centuri ;
+   font-size: 150px;
+   
+   color: #ffffffd2 !important;
+   opacity: 1.95;
+   display: flex;
+   justify-content: center;
+   margin-top: 250px;
+   margin-left: 200px;
+
+  
+
+}
+/* header{
+    width:1536px ;
+    display: flex;
+    justify-content: center;
+} */
+
+
+ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium';
+    width: 700px;
+    overflow: hidden;
+    display: flex;
+    font-size: medium;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+.list{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: center; */
+    color: white;
+    margin-right: 780px;
+}
+ol li a
+{
+    
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+}
